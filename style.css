@@ -1,0 +1,346 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+.first-site {
+    background-image: url(img/blue_bg.png);
+    width: 100%;
+    height: 620px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 130px 0px 30px;
+
+
+
+}
+
+
+nav img {
+    width: 200px;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+
+}
+
+nav .menu a {
+    text-decoration: none;
+    font-size: 20px;
+    margin: 8px;
+
+
+}
+
+.menu .hover {
+    border-bottom: 2px solid rgb(97, 28, 161);
+
+}
+
+nav button {
+    width: 80px;
+    height: 40px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 17px;
+    color: rgb(153, 0, 255);
+    position: relative;
+    z-index: 14;
+}
+
+/* End Nav */
+/* Start Header */
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -80px;
+    position: relative;
+}
+
+header .content {
+    font-size: 27px;
+    color: grey;
+}
+
+header .content p {
+    color: grey;
+    font-size: 25px;
+    margin: 18px 0px 0px 10px;
+}
+
+header img {
+    width: 650px;
+}
+
+.content span {
+    color: rgb(97, 28, 161);
+}
+
+header.image {
+    position: absolute;
+}
+
+.image .image-pos {
+    position: relative;
+}
+
+.image .img1 {
+    position: absolute;
+    z-index: 1;
+    right: 0px;
+}
+
+.image .img2 {
+    position: absolute;
+    z-index: 3;
+    right: 1px;
+    top: 350px;
+    left: auto;
+    width: 170%;
+}
+
+.image .img3 {
+    position: relative;
+    right: 190px;
+    z-index: 2;
+    height: 450px;
+    width: 300px;
+}
+
+/* End Header */
+/* Start Section 1 */
+.sec1 {
+    /* background-image: url(img/second_section_.png);
+    background-repeat: no-repeat;
+    background-size: contain; */
+    width: 100%;
+    height: 900px;
+    margin-top: 70px;
+
+    /* margin-right: 250px; */
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    align-items: start;
+}
+
+.sec1 .backg {
+    position: absolute;
+    left: 100px;
+    margin-left: 200px;
+    align-items: center;
+    width: 63%;
+    display: flex;
+}
+
+.first {
+    text-align: start;
+    position: absolute;
+    left: 150px;
+    top: 80px;
+
+
+}
+
+.first .text {
+    color: grey;
+    text-align: center;
+    font-weight: bold;
+}
+
+.text h1 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.second {
+    position: absolute;
+    top: 220px;
+}
+
+.second .text {
+    color: grey;
+    text-align: center;
+    font-weight: bold;
+}
+
+.text h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.third {
+    position: absolute;
+    top: 500px;
+    right: 300px;
+    font-weight: bold;
+}
+
+.third .text {
+    color: grey;
+    text-align: center;
+    margin: 20px;
+}
+
+.text h1 {
+    margin-bottom: 10px;
+}
+
+.four {
+    background-image: url(img/why_kudzoka_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 380px;
+    width: 470px;
+    position: relative;
+    top: 500px;
+    right: 450px;
+}
+
+.four .text {
+    position: absolute;
+    top: 130px;
+    left: 100px;
+    font-size: 40PX;
+    color: white;
+}
+
+/* End sec1 */
+/* Start Sec2 */
+.sec2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0px;
+    margin-bottom: 200px;
+
+}
+
+.sec2 .slid {
+    align-items: center;
+    text-align: center;
+    position: relative;
+
+}
+
+.slid .fa-sharp {
+    position: absolute;
+    top: 400px;
+}
+
+.slid .info {
+    position: absolute;
+    left: 190px;
+    top: 490px;
+    color: grey;
+
+}
+
+.info h1 {
+    margin-bottom: 20px;
+}
+
+.info p {
+    font-size: 20px;
+    color: grey;
+    margin: 5px;
+}
+
+/* End Sec2 */
+
+/* Start Footer */
+footer {
+    background-image: url(img/Group\ 1131.png);
+    background-repeat: no-repeat;
+    background-size: 1600px 600px;
+    background-position: bottom;
+    overflow: hidden;
+    height: 450px;
+    position: relative;
+
+}
+
+footer .cover img {
+    width: 700px;
+    position: absolute;
+    right: 100px;
+}
+
+.apple {
+    background-color: white;
+    display: flex;
+    width: 170px;
+    height: 50px;
+    position: absolute;
+    top: 230px;
+    left: 80px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.apple img {
+    margin: 8px;
+}
+
+.play {
+    background-color: white;
+    display: flex;
+    width: 170px;
+    height: 50px;
+    position: absolute;
+    top: 230px;
+    left: 270px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.play img {
+    margin: 8px;
+}
+
+.social {
+    position: absolute;
+    top: 310px;
+    left: 80px;
+}
+
+.social img {
+    margin-right: 20px;
+}
+
+.footer-menu {
+    position: absolute;
+    top: 380px;
+    left: 80px;
+}
+
+.footer-menu a {
+    text-decoration: none;
+    color: white;
+    margin-right: 40px;
+}
+
+/* End Footer */
