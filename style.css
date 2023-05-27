@@ -23,6 +23,8 @@ nav {
     align-items: center;
     justify-content: space-between;
     margin: 0px 130px 0px 30px;
+    position: relative;
+    z-index: 20;
 
 
 
